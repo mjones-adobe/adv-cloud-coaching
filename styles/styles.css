@@ -18,6 +18,9 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  /* custom colors*/
+  --selected-color: #136ff6;
+  --footer-background-color: #052f4d;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;

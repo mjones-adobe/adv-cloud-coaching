@@ -42,12 +42,12 @@
 
 .tabs .tabs-list button[aria-selected='true'] {
     border-bottom: 1px solid var(--background-color);
-    background-color: #136ff6;
+    background-color: var(--selected-color);
     cursor: initial;
 }
 
 .tabs .tabs-list button[aria-selected='true'] p {
-    color: white;
+    color: var(--light-color);
 }
 
 .tabs .tabs-panel {
