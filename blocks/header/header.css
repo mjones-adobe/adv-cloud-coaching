@@ -30,6 +30,15 @@ header nav[aria-expanded='true'] {
   min-height: 100vh;
 }
 
+header nav li:hover {
+  color: var(--selected-color);
+}
+
+header nav li:hover a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
 @media (width >= 600px) {
   header nav {
     padding: 0 2rem;
